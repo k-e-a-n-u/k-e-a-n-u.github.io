@@ -1,0 +1,148 @@
+/* body {
+  font-family:  'Oxygen Mono', monospace;
+}
+p {
+  font-family:  'Oxygen Mono', monospace;
+}
+h1 {
+  font-family: 'Oxygen Mono', monospace;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 1.5;
+  margin-top: 0;
+  
+}
+
+h2,h3,h4,h5,h6 {
+  font-family: 'Oxygen Mono', monospace;
+} */
+
+@import url("pygment_highlights.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Oxygen+Mono&display=swap');
+
+/* --- General --- */
+
+body {
+  font-family: 'Oxygen Mono', monospace;
+  font-size: 13.5px;
+  color: #050505;
+  position: relative;
+  background-color: #FFFFFF;
+  
+}
+p {
+  line-height: 1.7;
+  margin: 30px 0;
+}
+
+h2, h3 {
+  font-weight: bold;
+}
+
+h1{
+  font-size : 15px;
+  text-transform: uppercase;
+  background-color: #EF626C
+  color: white;
+  font-weight: bolder;
+}
+
+h4, h5, h6 {
+  font-weight: 200;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 18px;
+  font-family: 'Oxygen Mono', monospace;
+}
+
+h2 { 
+  font-size: 20px;
+}
+
+a {
+  color: #EF626C;
+}
+a:hover,
+a:focus {
+  color: #EF626C;
+}
+blockquote {
+  color: #EF626C;
+  font-size: 13.5px;
+  font-style: italic;
+}
+blockquote p:first-child {
+  margin-top: 0;
+}
+hr.small {
+  max-width: 100px;
+  margin: 15px auto;
+  border-width: 4px;
+  border-color: inherit;
+  border-radius: 3px;
+}
+
+::placeholder {
+  font-family: 'Oxygen Mono', monospace;
+}
+
+.main-content {
+  padding-top: 80px;
+}
+@media only screen and (min-width: 768px) {
+  .main-content {
+    padding-top: 130px;
+  }
+}
+
+.main-explain-area {
+  font-family: 'Oxygen Mono', monospace;
+  padding: 12px inherit;
+}
+
+.hideme {
+  display: none;
+}
+
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background-color: #EF626C;
+}
+::selection {
+  color: white;
+  text-shadow: none;
+  background-color: #EF626C;
+}
+img::selection {
+  color: white;
+  background: transparent;
+}
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.disqus-comments {
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .disqus-comments {
+    margin-top: 40px;
+  }
+}
+
+.linked-section {
+  padding-top: 60px;
+  margin-top: -25px;
+}
